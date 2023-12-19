@@ -1,0 +1,17 @@
+<configuration>
+    <MappedFolders>
+        <MappedFolder>
+          <HostFolder>c:\git</HostFolder>
+          <SandboxFolder>c:\git</SandboxFolder>
+          <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+		<MappedFolder>
+          <HostFolder>c:\programdata\chocolatey\license</HostFolder>
+          <SandboxFolder>c:\chocoLicense</SandboxFolder>
+          <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+    <LogonCommand>
+        <Command>powershell.exe -ExecutionPolicy Bypass -F C:\git\wsandbox\installChoco.ps1</Command>
+    </LogonCommand>
+</configuration>
